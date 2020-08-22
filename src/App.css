@@ -1,0 +1,33 @@
+.app {
+	display: flex;
+	flex-direction: column;
+}
+
+.app__main {
+  display: flex;
+}
+
+.app__left {
+  flex: .25;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  border-right: 1px solid darkgray;
+  background-color: white;
+}
+
+.app__detail {
+  display: flex;
+  flex: .75;
+  margin-left:auto;
+  background-color:#FCFCFA;
+}
+
+.app__detailright {
+  display: flex;
+  margin-left: auto;
+  flex: .3;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+}

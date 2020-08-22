@@ -1,0 +1,27 @@
+.gitAds {
+	display: flex;
+	padding-top: 30px;		
+	width: 100%;
+}
+
+.gitAds__detail {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.gitAds__close {
+	margin-left: auto;
+}
+
+.gitAds__title {
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.gitAds__description {
+	font-size: .9em;
+}

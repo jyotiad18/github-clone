@@ -1,0 +1,84 @@
+.repository{
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	padding-left: 20px;	
+	padding-right: 20px;	
+}
+
+.repository__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.repository__headerButton {
+	background-color: darkgreen !important;
+	color: white !important;
+	font-weight: 800;
+}
+
+.repository__text {
+	border-radius: 5px;
+	height: 30px;
+}
+
+.repository__lists {
+	margin-top: 20px;
+}
+
+.repository__list {
+	display: flex;
+	margin-top: 5px;
+	align-items: center;
+}
+
+.repository button {
+	text-transform: none !important;
+}
+
+.repository__buttonOrg {
+	color: blue !important;
+	width: 70%;	
+}
+
+.repository__team {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;	
+}
+.repository__team > p {
+	margin-bottom: 10px;
+}
+
+.repository__teamDetail {
+	font-size: .9em;
+}
+
+.repository__divider {
+	margin-top: 20px;	
+}
+
+.repository__showmore {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.repository__listIcon {
+	color: lightgrey;
+}
+
+.repository__info {
+	margin-left: 10px;
+	color: darkblue;
+	font-weight: 700;
+	font-size: .9em;
+}
+
+.repository__buttonOrg:hover {
+	background-color: darkblue !important;
+	color: white !important;	
+}
+
+
